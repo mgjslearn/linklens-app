@@ -1,0 +1,2 @@
+ALERT_PARAMETERS,QUERY_CONTEXT,SAVED_SEARCH_ID
+"{channels=[EMAIL, INAPP_NOTIFICATION], frequency=DAILY}","{keywords=data scientist, workflowContext={savedSearch=urn:li:savedSearch:1566486863}, searchLocation={com.linkedin.jobs.matching.SpecificSearchLocation={geoLocations=[{geo=urn:li:geo:105972365}]}}, facets={employmentStatuses={selectedValues=[PART_TIME, INTERNSHIP]}}}",1566486863
