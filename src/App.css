@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 /* Move step 1 header higher for alignment */
 .step1-header-up {
   margin-top: -90px !important;
 }
+=======
+/* Ensure step number badge is always visible above the card */
+>>>>>>> fix/remove-blur
 /* Ensure step number badge is always visible above the card */
 .step-card {
   position: relative;
@@ -9,6 +13,7 @@
   z-index: 1;
 }
 .step-card .step-number-badge {
+<<<<<<< HEAD
   z-index: 20;
   position: absolute;
   left: 50%;
@@ -50,6 +55,13 @@
 .step-card:hover {
   box-shadow: 0 8px 32px 0 rgba(10,102,194,0.13), 0 2px 12px 0 rgba(60,120,200,0.13);
   border-color: #b3d3f7;
+=======
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  top: -1.8rem;
+  transform: translateX(-50%);
+>>>>>>> fix/remove-blur
 }
 
 /* Center the subtitle on import page */
@@ -64,7 +76,10 @@ body {
   background: #f4f6fa;
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   color: #1a1d23;
+<<<<<<< HEAD
   font-family: 'Inter', 'Segoe UI', 'system-ui', Arial, sans-serif;
+=======
+>>>>>>> fix/remove-blur
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -477,6 +492,48 @@ header p {
 }
 
 @keyframes spin {
+<<<<<<< HEAD
+=======
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+>>>>>>> fix/remove-blur
   from {
     transform: rotate(0deg);
   }
@@ -753,8 +810,13 @@ input[type="file"] {
   flex-direction: column;
   align-items: center;
   text-align: center;
+<<<<<<< HEAD
   min-height: 420px;
   font-family: 'Inter', 'Segoe UI', 'system-ui', Arial, sans-serif;
+=======
+  transition: all 0.3s ease;
+  min-height: 420px;
+>>>>>>> fix/remove-blur
   max-width: 100%;
   flex: 1;
   box-sizing: border-box;
@@ -938,4 +1000,8 @@ footer {
     padding: 0.75rem 0.5rem;
     font-size: 0.9rem;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> fix/remove-blur
